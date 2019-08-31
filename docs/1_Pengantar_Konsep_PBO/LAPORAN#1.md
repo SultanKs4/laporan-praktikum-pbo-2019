@@ -29,7 +29,7 @@ Pada percobaan 1 hanya meniru apa yang ada didalam jobsheet dan mencocokkan hasi
 
 Pada percobaan 2 hanya meniru apa yang ada didalam jobsheet dan mencocokkan hasilnya.
 
-Mendemokan fitur inheritance pada Java OOP dengan menambahkan syntax.
+Mendemokan fitur inheritance pada Java OOP dengan menambahkan syntax pada file [SepedaGunung1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720019Sultan.java).
 
 ``` java
 ... extends Sepeda1841720019Sultan{
@@ -86,7 +86,7 @@ Mendemokan fitur inheritance pada Java OOP dengan menambahkan syntax.
     Sudah ditambahkan.
 
     `Screenshot Pertanyaan 5:`
-    ![contoh screenshot](img/percobaan-2.png)
+    ![contoh screenshot](img/pertanyaan-5.png)
 
     `Kode program:`
 
