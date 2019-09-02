@@ -9,7 +9,9 @@ Setelah menempuh materi percobaan ini, mahasiswa mampu mengenal:
 
 ## Ringkasan Materi
 
-aman santuy
+Tidak ada masalah karena sebelumnya sudah sempat belajar mengenai Java OOP ini sehingga hanya bersifat menyegarkan kembali saja.
+
+~~*`aman santuy`*~~
 
 ## Percobaan
 
@@ -59,6 +61,8 @@ Pada percobaan 3 ini hanya tambahan saja yaitu mencoba jika ingin mengakses clas
 * [SepedaGunung1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720019Sultan.java)
 * [Sepeda1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720019Sultan.java)
 * [SepedaDemo1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720019Sultan.java)
+
+Kesimpulan dari percobaan tambahan ini adalah jika kita ingin mengakses class parent dari parent maka kita tidak perlu menggunakan extend 2 kali atau yang lainnya cukup menggunakan extend 1 kali dan memilih class yang ingin dijadikan parent, dikarenakan class yang dijadikan parent tersebut sudah mewarisi class root parent sehingga class yang kita buat tetap dapat mengakses root parent.
 
 ## Pertanyaan
 
