@@ -20,7 +20,7 @@ Pada percobaan 1 hanya meniru apa yang ada didalam jobsheet dan mencocokkan hasi
 `Screenshot Percobaan 1:`
 ![Screenshot percobaan 1](img/percobaan-1.png)
 
-`Kode program:`
+`Kode Program:`
 
 * [Sepeda1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720019Sultan.java)
 * [SepedaDemo1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720019Sultan.java)
@@ -40,10 +40,24 @@ Mendemokan fitur inheritance pada Java OOP dengan menambahkan syntax pada file [
 `Screenshot Percobaan 2:`
 ![contoh screenshot](img/percobaan-2.png)
 
-`Kode program:`
+`Kode Program:`
 
 * [Sepeda1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720019Sultan.java)
 * [SepedaGunung1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720019Sultan.java)
+* [SepedaDemo1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720019Sultan.java)
+
+### Percobaan 3 (Tambahan)
+
+Pada percobaan 3 ini hanya tambahan saja yaitu mencoba jika ingin mengakses class parent dari parent, contohnya adalah saya membuat [SepedaGunungBalap1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaGunungBalap1841720019Sultan.java) yang mewarisi [SepedaGunung1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720019Sultan.java) dan ingin mencoba untuk mengakses [Sepeda1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720019Sultan.java)
+
+`Screenshot:`
+![contoh screenshot](img/percobaan-3.png)
+
+`Kode Program:`
+
+* [SepedaGunungBalap1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaGunungBalap1841720019Sultan.java)
+* [SepedaGunung1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720019Sultan.java)
+* [Sepeda1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720019Sultan.java)
 * [SepedaDemo1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720019Sultan.java)
 
 ## Pertanyaan
@@ -79,7 +93,7 @@ Mendemokan fitur inheritance pada Java OOP dengan menambahkan syntax pada file [
     Pada class sepeda terdapat 3 atribut yaitu:
     * merek
     * kecepatan
-    * gear.
+    * gear
 
 5. Tambahkan atribut warna pada class Sepeda.
 
@@ -88,7 +102,7 @@ Mendemokan fitur inheritance pada Java OOP dengan menambahkan syntax pada file [
     `Screenshot Pertanyaan 5:`
     ![contoh screenshot](img/pertanyaan-5.png)
 
-    `Kode program:`
+    `Kode Program:`
 
     * [Sepeda1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720019Sultan.java)
     * [SepedaGunung1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720019Sultan.java)
@@ -107,7 +121,7 @@ Tugas ini dikarenakan diberi kebebasan memilih tema asalkan disekitar kita maka 
 ![tugas foto 1](img/tugas1.png)
 ![tugas foto 2](img/tugas2.png)
 
-`Kode program:`
+`Kode Program:`
 
 * [Motor1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/Motor1841720019Sultan.java)
 * [MotorSport1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/MotorSport1841720019Sultan.java)
