@@ -1,7 +1,7 @@
 # Index laporan
 
 * **[LAPORAN#1](1_Pengantar_Konsep_PBO/LAPORAN%231.md)** - *Pengantar Konsep PBO*
-* ~~**[LAPORAN#2](#index-laporan)** - *Class dan Object*~~
+* **[LAPORAN#2](2_Class_dan_Object/LAPORAN%232)** - *Class dan Object*
 * ~~**[LAPORAN#3](#index-laporan)** - *Enkapsulasi*~~
 * ~~**[LAPORAN#4](#index-laporan)** - *Relasi Class*~~
 * ~~**[LAPORAN#5](#index-laporan)** - *Kuis 1*~~
