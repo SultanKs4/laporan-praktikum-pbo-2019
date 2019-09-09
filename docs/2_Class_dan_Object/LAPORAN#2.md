@@ -12,7 +12,7 @@
 
 ## Ringkasan Materi
 
-Tidak ada masalah karena sebelumnya sudah sempat belajar mengenai Java OOP ini sehingga hanya bersifat menyegarkan kembali saja.
+Try-Catch untuk handling error.
 
 ~~*`aman santuy`*~~
 
@@ -20,123 +20,204 @@ Tidak ada masalah karena sebelumnya sudah sempat belajar mengenai Java OOP ini s
 
 ### Percobaan 1
 
-Pada percobaan 1 hanya meniru apa yang ada didalam jobsheet dan mencocokkan hasilnya.
+Dalam suatu perusahaan salah satu data yang diolah adalah data karyawan. Setiap
+karyawan memiliki id, nama, jenis kelamin, jabatan, jabatan, dan gaji. Setiap mahasiswa
+juga bisa menampilkan data diri pribadi dan melihat gajinya.
+
+1. Gambarkan desain class diagram dari studi kasus diatas!
+
+   ![Percobaan1-Diagram](img/percobaan1-diagram.png)
+
+2. Sebutkan Class apa saja yang bisa dibuat dari studi kasus diatas!,
+
+    1 (satu) Class saja yaitu dataKaryawan1841720019Sultan untuk kemudahan dalam membuat program.
+3. Sebutkan atribut beserta tipe datanya yang dapat diidentifikasi dari masing-masing class dari studi kasus diatas!
+
+    * mId: int
+    * mNama: String
+    * mJk: String
+    * mJabatan: String
+    * mGaji: int
+
+4. Sebutkan method-method yang sudah anda buat dari masing-masing class pada studi kasus diatas!
+    * tampilBiodataSultan(): void
+    * tampilGajiSultan(): void
 
 `Screenshot Percobaan 1:`
-![Screenshot percobaan 1](img/percobaan-1.png)
+![Screenshot percobaan 1](img/percobaan1-hasil.png)
 
 `Kode Program:`
 
-* [Sepeda1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720019Sultan.java)
-* [SepedaDemo1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720019Sultan.java)
+* [DataKaryawan1841720019Sultan.java](../../src/2_Class_dan_Object/DataKaryawan1841720019Sultan.java)
+* [DataKaryawanMain1841720019Sultan.java](../../src/2_Class_dan_Object/DataKaryawanMain1841720019Sultan.java)
 
 ### Percobaan 2
 
-Pada percobaan 2 hanya meniru apa yang ada didalam jobsheet dan mencocokkan hasilnya.
+Membuat program berdasarkan class diagram.
 
-Mendemokan fitur inheritance pada Java OOP dengan menambahkan syntax pada file [SepedaGunung1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720019Sultan.java).
+Class Diagram
 
-``` java
-... extends Sepeda1841720019Sultan{
-    ...
-}
-```
+![Class Diagram Percobaan 2](img/percobaan2-diagram.png)
 
 `Screenshot Percobaan 2:`
-![contoh screenshot](img/percobaan-2.png)
+
+![Screenshot hasil](img/percobaan2-hasil2.png)
+![Screenshot hasil](img/percobaan2-hasil.png)
 
 `Kode Program:`
 
-* [Sepeda1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720019Sultan.java)
-* [SepedaGunung1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720019Sultan.java)
-* [SepedaDemo1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720019Sultan.java)
+* [Mahasiswa1841720019Sultan.java](../../src/2_Class_dan_Object/Mahasiswa1841720019Sultan.java)
+* [TestMahasiswa1841720019Sultan.java](../../src/2_Class_dan_Object/TestMahasiswa1841720019Sultan.java)
 
-### Percobaan 3 (Tambahan)
+`Screenshot Jobsheet:`
 
-Pada percobaan 3 ini hanya tambahan saja yaitu mencoba jika ingin mengakses class parent dari parent, contohnya adalah saya membuat [SepedaGunungBalap1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaGunungBalap1841720019Sultan.java) yang mewarisi [SepedaGunung1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720019Sultan.java) dan ingin mencoba untuk mengakses [Sepeda1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720019Sultan.java)
+![Mahasiswa Jobsheet](img/percobaan2-js1.png)
+![TestMahasiswa Jobsheet](img/percobaan2-js2.png)
 
-`Screenshot:`
-![contoh screenshot](img/percobaan-3.png)
+1. (7) Jelaskan pada bagian mana proses pendeklarasian atribut pada program diatas!
 
-`Kode Program:`
+    Pendeklarasian atribut jika merujuk Screenshot Jobsheet maka dari line 2 - 5,
 
-* [SepedaGunungBalap1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaGunungBalap1841720019Sultan.java)
-* [SepedaGunung1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720019Sultan.java)
-* [Sepeda1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720019Sultan.java)
-* [SepedaDemo1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720019Sultan.java)
+    `Screenshot:`
 
-Kesimpulan dari percobaan tambahan ini adalah jika kita ingin mengakses class parent dari parent maka kita tidak perlu menggunakan extend 2 kali atau yang lainnya cukup menggunakan extend 1 kali dan memilih class yang ingin dijadikan parent, dikarenakan class yang dijadikan parent tersebut sudah mewarisi class root parent sehingga class yang kita buat tetap dapat mengakses root parent.
+    ![percobaan 2 atribut](img/percobaan2-atribut.png)
 
-## Pertanyaan
+    tetapi jika merujuk pada Screenshot diatas, pendklarasian atribut dilakukan pada line 4 - 7 pada file [Mahasiswa1841720019Sultan.java](../../src/2_Class_dan_Object/Mahasiswa1841720019Sultan.java).
 
-1. Sebutkan dan jelaskan aspek-aspek yang ada pada pemrograman berorientasi objek!
+    `Screenshot:`
 
-   Aspek-aspek dalam Pemrograman Berorientasi Objek
-   1. Object
-      * Object adalah suatu rangkaian dalam program yang terdiri dari state dan behavior, state adalah ciri-ciri atau atribut dari objek tersebut, sedangkan behavior adalah perilaku yang dapat dilakukan object tersebut.
-   2. Class
-      * Class adalah blueprint atau prototype dari objek.
-   3. Enkapsulasi
-      * Disebut juga dengan information-hiding, dalam berinteraksi dengan objek, seringkali kita tidak perlu mengetahui kompleksitas yang ada didalamnya.
-   4. Inheritance
-      * Disebut juga pewarisan, Inheritance memungkinkan kita untuk mengorganisir struktur program dengan natural
-   5. Polimorfisme
-      * Polimorfisme juga meniru sifat objek di dunia nyata, dimana sebuah objek dapat memiliki bentuk, atau menjelma menjadi bentuk-bentuk lain.
+    ![percobaan 2 atribut 2](img/percobaan2-atribut2.png)
 
-2. Apa yang dimaksud dengan object dan apa bedanya dengan class?
+2. (8) Jelaskan pada bagian mana proses pendeklarasian method pada program diatas!
 
-    Object adalah sebuah variabel yang merupakan instansiasi dari class, dan perbedaannya dengan class adalah jika class diandaikan seperti semacam blueprint-nya maka object adalah hasil dari blueprint class tersebut
+    Pendeklarasian method jika merujuk Screenshot Jobsheet maka pada line 7 dengan isi dari method dari line 8 - 11,
 
-    **`Contoh:`**
+    `Screenshot:`
 
-    Karakter game memiliki HP, MP, dan stat lainnya, maka atribut dasar seperti stat karakter game itu adalah classnya dan objek adalah karakter dimana tiap-tiap karakter memiliki atribut yang sama dari cetakannya yaitu dari class tetapi memiliki angka yang berbeda beda.
+    ![percobaan 2 method](img/percobaan2-method.png)
 
-3. Sebutkan salah satu kelebihan utama dari pemrograman berorientasi objek dibandingkan dengan pemrograman struktural!
+     tetapi jika merujuk pada Screenshot diatas, pendeklarasian method dilakukan pada line 16 dengan isi dari method dari line 17 - 21 pada file [TestMahasiswa1841720019Sultan.java](../../src/2_Class_dan_Object/TestMahasiswa1841720019Sultan.java).
 
-    Kelebihan PBO adalah program dapat lebih fleksibel dan modular jika ada perubahan fitur, maka dapat dipastikan keseluruhan program tidak akan terganggu. Berbeda dengan struktural, perubahan sedikit fitur saja kemungkinan dapat mengganggu keseluruhan program.
+     `Screenshot:`
 
-4. Pada class Sepeda, terdapat state/atribut apa saja?
+     ![percobaan 2 method 2](img/percobaan2-method2.png)
 
-    Pada class sepeda terdapat 3 atribut yaitu:
-    * merek
-    * kecepatan
-    * gear
+3. (9) Berapa banyak objek yang di instansiasi pada program diatas!
 
-5. Tambahkan atribut warna pada class Sepeda.
+    Hanya 1 Objek yang yang di instansiasi yaitu yang bernama mhs1,
 
-    Sudah ditambahkan.
+4. (10) Apakah yang sebenarnya dilakukan pada sintaks program “mhs1.nim=101” ?
 
-    `Screenshot Pertanyaan 5:`
-    ![contoh screenshot](img/pertanyaan-5.png)
+    Pada sintaks program `mhs1.nim=101` yang ada pada Screenshot Jobsheet, maksudnya adalah untuk memberikan nilai `101` pada atribut `nim` dari objek `mhs1`
+
+5. (11) Apakah yang sebenarnya dilakukan pada sintaks program “mhs1.tampilBiodata()” ?
+
+    Pada sintaks program `mhs1.tampilBiodata()` yang ada pada Screenshot Jobsheet, maksudnya adalah untuk memanggil method `tampilBiodata()` dari objek `mhs1`.
+
+6. (12) Instansiasi 2 objek lagi pada program diatas!
+
+    `Screenshot Penambahan 2 objek:`
+    ![Pecobaan 2 no 12](img/percobaan2-12.png)
 
     `Kode Program:`
+    * [Mahasiswa1841720019Sultan.java](../../src/2_Class_dan_Object/Mahasiswa1841720019Sultan.java).
+    * [TestMahasiswa1841720019Sultan.java](../../src/2_Class_dan_Object/TestMahasiswa1841720019Sultan.java).
 
-    * [Sepeda1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720019Sultan.java)
-    * [SepedaGunung1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720019Sultan.java)
-    * [SepedaDemo1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720019Sultan.java)
+### Percobaan 3
 
-6. Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari
-nol?
+Menulis method yang memiliki argument/parameter dan memiliki return.
 
-    Karena kita telah menambahkan syntax extends Sepeda yang berfungsi class SepedaGunung adalah turunan dari class Sepeda sehingga class SepedaGunung dapat mengakses seluruh method yang ada pada class Sepeda
+`Screenshot:`
+![contoh screenshot](img/percobaan3-1-6.png)
+
+`Kode Program:`
+
+* [Barang1841720019Sultan.java](../../src/2_Class_dan_Object/Barang1841720019Sultan.java)
+* [TestBarang1841720019Sultan.java](../../src/2_Class_dan_Object/TestBarang1841720019Sultan.java)
+
+1. (7) Apakah fungsi argumen dalam suatu method?
+
+    Fungsi argumen/parameter dalam suatu method adalah untuk menambahkan data yang nantinya akan diproses dalam suatu method yang memiliki nilai kembalian atau return.
+
+2. (8) Ambil kesimpulan tentang kegunaan dari kata kunci return , dan kapan suatu method harus memiliki return!
+
+    Suatu method memiliki return jika method tersebut menerima inputan dan melakukan sebuah operasi yang mengembalikan sebuah nilai yang nantinya akan dioutputkan atau akan digunakan lagi pada fungsi yang lain.
 
 ## Tugas
 
-Tugas ini dikarenakan diberi kebebasan memilih tema asalkan disekitar kita maka saya memilih tema motor.
+### Tugas 1 & 2
 
-`Screenshot Tugas:`
-![tugas foto 1](img/tugas1.png)
-![tugas foto 2](img/tugas2.png)
+1. Suatu toko persewaan video game salah satu yang diolah adalah peminjaman, dimana data yang dicatat ketika ada orang yang melakukan peminjaman adalah id, nama member, nama game, dan harga yang harus dibayar. Setiap peminjaman bisa menampilkan data hasil peminjaman dan harga yang harus dibayar. Buatlah class diagram pada studi kasus diatas! Penjelasan:
+
+   * Harga yang harus dibayar diperoleh dari lama sewa x harga.
+   * Diasumsikan 1x transaksi peminjaman game yang dipinjam hanya 1 game saja.
+
+    `Class Diagram:`
+
+    ![Class Diagram 1 Tugas 1](img/tugas1-diagram1.png)
+    ![Class Diagram 2 Tugas 1](img/tugas1-diagram2.png)
+
+2. Buatlah program dari class diagram yang sudah anda buat di no 1!
+
+    `Screenshot:`
+
+    ![Tugas 1 SS 1](img/tugas1-ss1.png)
+    ![Tugas 1 SS 2](img/tugas1-ss2.png)
+    ![Tugas 1 SS 3](img/tugas1-ss3.png)
+
+    `Kode Program:`
+
+   * [LoanGim1841720019Sultan.java](../../src/2_Class_dan_Object/LoanGim1841720019Sultan.java)
+   * [LoanGimMain1841720019Sultan.java](../../src/2_Class_dan_Object/LoanGimMain1841720019Sultan.java)
+
+### Tugas 3
+
+Buatlah program sesuai dengan class diagram berikut ini:
+
+`Class Diagram:`
+
+![tugas 3 Class Diagram](img/tugas3-diagram.png)
+
+`Screenshot:`
+![screenshot tugas 3](img/tugas3-ss1.png)
+![screenshot tugas 3](img/tugas3-ss2.png)
+![screenshot tugas 3](img/tugas3-ss3.png)
 
 `Kode Program:`
 
-* [Motor1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/Motor1841720019Sultan.java)
-* [MotorSport1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/MotorSport1841720019Sultan.java)
-* [MotorMain1841720019Sultan.java](../../src/1_Pengantar_Konsep_PBO/MotorMain1841720019Sultan.java)
+* [Lingkaran1841720019Sultan.java](../../src/2_Class_dan_Object/Lingkaran1841720019Sultan.java)
+* [LingkaranMain1841720019Sultan.java](../../src/2_Class_dan_Object/LingkaranMain1841720019Sultan.java)
+
+### Tugas 4
+
+Buatlah program sesuai dengan class diagram berikut ini:
+
+`Class Diagram:`
+
+![tugas 4 diagram](img/tugas4-diagram.png)
+
+Deskripsi / Penjelasan:
+
+* Nilai atribut hargaDasar dalam rupiah dan atribut diskon dalam %
+* Method hitungHargaJual() digunakan untuk menghitung harga jual dengan perhitungan berikut ini:
+
+    **harga jual = harga dasar - (diskon * harga dasar)**
+
+* Method tampilData() digunakan untuk menampilkan nilai dari kode, namaBarang, hargaDasar, diskon dan harga jual
+
+`Screenshot:`
+![screenshot tugas 4](img/tugas4-ss1.png)
+![screenshot tugas 4](img/tugas4-ss2.png)
+![screenshot tugas 4](img/tugas4-ss3.png)
+
+`Kode Program:`
+
+* [BarangTugas41841720019Sultan.java](../../src/2_Class_dan_Object/BarangTugas41841720019Sultan.java)
+* [BarangTugas4Main1841720019Sultan.java](../../src/2_Class_dan_Object/BarangTugas4Main1841720019Sultan.java)
 
 ## Kesimpulan
 
-Kesimpulan yang dapat saya sampaikan adalah pentingnya kita menggunakan sistem OOP (Object Oriented Programming) pada berbagai macam kode program (khususnya java) untuk membuat kita lebih mudah lagi dalam membuat program / yang lainnya.
+Kesimpulan yang dapat saya sampaikan adalah saya dapat memahami deskrpsi dari class dna object, memahami implementasi dari class, memahami implementasi dari attribute, memahami implementasi dari method, memahami implementasi dari proses instansiasi, memahami implementasi dari try-catch, memahami proses pemodelan class diagram menggunakan UML
 
 ## Pernyataan Diri
 
