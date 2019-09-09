@@ -96,7 +96,7 @@ Class Diagram
 
     ![percobaan 2 method](img/percobaan2-method.png)
 
-     tetapi jika merujuk pada Screenshot diatas, pendeklarasian method dilakukan pada line 16 dengan isi dari method dari line 17 - 21 pada file [TestMahasiswa1841720019Sultan.java](../../src/2_Class_dan_Object/TestMahasiswa1841720019Sultan.java).
+     tetapi jika merujuk pada Screenshot diatas, pendeklarasian method dilakukan pada line 16 dengan isi dari method dari line 17 - 21 pada file [Mahasiswa1841720019Sultan.java](../../src/2_Class_dan_Object/Mahasiswa1841720019Sultan.java).
 
      `Screenshot:`
 
