@@ -13,6 +13,49 @@ Setelah melakukan percobaan pada modul ini, mahasiswa memahami konsep:
 
 ## Ringkasan Materi
 
+### Konstruktor
+
+Konstruktor mirip dengan method cara deklarasinya akan tetapi tidak memiliki tipe return. Dan konstruktor dieksekusi ketika instan dari objek dibuat. Jadi setiap kali sebuat objek dibuat dengan keyword new() maka konstruktor akan dieksekusi. Cara untuk membuat konstruktor adalah sebagai berikut:
+
+1. Nama konstruktor harus sama dengan nama class
+2. Konstruktor tidak memiliki tipe data return
+3. Konstruktor tidak boleh menggunakan modier abstract, static, final, dan syncronized
+
+`Note: Di java kita dapat memiliki konstruktor dengan modifier private, protected, public or default.`
+
+### Akses Modifier
+
+Terdapat 2 tipe modifier di java yaitu : akses modifier dan non-access modifier. Dalam hal ini kita akan fokus pada akses modifier yang berguna untuk mengatur akses method, class, dan constructor. Terdapat 4 akses modifier yaitu:
+
+1. private – hanya dapat diakses di dalam kelas yang sama
+2. default – hanya dapat diakses di dalam package yang sama
+3. protected – dapat diakases di luar package menggunakan subclass (membuat inheritance)
+4. public – dapat diakases dari mana saja
+
+![UML](img/ringkasan2.png)
+
+### Notasi UML Class Diagram
+
+Notasi UML Class Diagram:
+
+![UML](img/ringkasan1.png)
+
+`Keterangan:`
+
+1. class
+2. Interface
+3. Enumaration (enum) - adalah tipe data yang memiliki nilai atau literal terbatas
+4. Attributes
+5. Method
+6. Literals
+
+`Notasi Akses modifier pada UML:`
+
+1. Tanda plus (+) untuk public
+2. Tanda minus (-) untuk private
+3. Tanda pagar (#) untuk protected
+4. Untuk default, maka tidak diberi notasi
+
 ~~*`aman santuy`*~~
 
 ## Percobaan
@@ -209,13 +252,112 @@ Setelah menambah konstruktor pada class Anggoata maka atribut nama dan alamat se
 
 ## Tugas
 
-(silakan kerjakan tugas di sini beserta `screenshot` hasil kompilasi program. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
+### Tugas 1
 
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
+Cobalah program dibawah ini dan tuliskan hasil outputnya
 
-![contoh screenshot](img/contoh-schot1.PNG)
+![SS Soal 1](img/tugas1-soal.png)
+![SS Soal 1](img/tugas1-soal2.png)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+`Screenshot:`
+![SS Tugas](img/tugas1-ss.png)
+
+`Kode Program:`
+
+* [EncapTest1841720019Sultan](../../src/3_Enkapsulasi/EncapTest1841720019Sultan.java)
+* [EncapDemo1841720019Sultan](../../src/3_Enkapsulasi/EncapDemo1841720019Sultan.java)
+
+### Tugas 2
+
+Pada program diatas, pada class EncapTest kita mengeset age dengan nilai 35, namun pada
+saat ditampilkan ke layar nilainya 30, jelaskan mengapa.
+
+`Jawab:`
+
+Karena pada method setmAgeSultan (jika pada Jobsheet setAge) terdapat percabangan jika Age diatas 30 maka age akan 30.
+
+![percabangan jobsheet](img/tugas2-ss.png)
+
+Terlihat pada potongan kode program diatas pada method setAge terdapat percabangan yaitu jika value dari newAge lebih dari 30 maka age akan static di value 30.
+
+![percabangan jobsheet](img/tugas2-ss2.png)
+
+Jika pada kode program yang diatas agak sedikit berbeda syntaxnya, karena saya menggunakan `Math.min`, tapi outputnya sama saja
+
+### Tugas 3
+
+Ubah program diatas agar atribut age dapat diberi nilai maksimal 30 dan minimal 18.
+
+`Screenshot:`
+
+![min 18 max 30](img/tugas3-ss.png)
+
+`Kode Program:`
+
+* [EncapTest1841720019Sultan](../../src/3_Enkapsulasi/EncapTest1841720019Sultan.java)
+* [EncapDemo1841720019Sultan](../../src/3_Enkapsulasi/EncapDemo1841720019Sultan.java)
+
+### Tugas 4
+
+Pada sebuah sistem informasi koperasi simpan pinjam, terdapat class Anggota yang memiliki atribut antara lain nomor KTP, nama, limit peminjaman, dan jumlah pinjaman. Anggota dapat meminjam uang dengan batas limit peminjaman yang ditentukan. Anggota juga dapat mengangsur pinjaman. Ketika Anggota tersebut mengangsur pinjaman, maka jumlah pinjaman akan berkurang sesuai dengan nominal yang diangsur. Buatlah class Anggota tersebut, berikan atribut, method dan konstruktor sesuai dengan kebutuhan. Uji dengan TestKoperasi berikut ini untuk memeriksa apakah class Anggota yang anda buat telah sesuai dengan yang diharapkan.
+
+![Tugas 4 Soal](img/tugas4-soal.png)
+
+`Hasil yang diharapkan:`
+
+![Tugas 4 Soal](img/tugas4-soal2.png)
+
+`Screenshot:`
+
+![Tugas 4 SS](img/tugas4-ss.png)
+
+`Kode Program:`
+
+* [AnggotaKoperasi1841720019Sultan](../../src/3_Enkapsulasi/AnggotaKoperasi1841720019Sultan.java)
+* [TestKoperasi1841720019Sultan](../../src/3_Enkapsulasi/TestKoperasi1841720019Sultan.java)
+
+### Tugas 5
+
+Modifikasi soal no. 4 agar nominal yang dapat diangsur minimal adalah 10% dari jumlah pinjaman saat ini. Jika mengangsur kurang dari itu, maka muncul peringatan “Maaf, angsuran harus 10% dari jumlah pinjaman”.
+
+Kunci dari penambahan ini terletak pada file [* [AnggotaKoperasi1841720019Sultan](../../src/3_Enkapsulasi/AnggotaKoperasi1841720019Sultan.java), Pada method angsurSultan(), yaitu syntax:
+
+```Java
+...
+    if (mAngsuran >= (0.1 * mJumlahPinjam)) {
+        ...
+    } else
+        ...
+```
+
+`Screenshot:`
+
+![Tugas 5 SS](img/tugas5-ss.png)
+![Tugas 5 SS](img/tugas5-ss2.png)
+
+`Kode Program:`
+
+* [AnggotaKoperasi1841720019Sultan](../../src/3_Enkapsulasi/AnggotaKoperasi1841720019Sultan.java)
+* [TestKoperasi1841720019Sultan](../../src/3_Enkapsulasi/TestKoperasi1841720019Sultan.java)
+
+### Tugas 6
+
+Modifikasi class TestKoperasi, agar jumlah pinjaman dan angsuran dapat menerima input dari console.
+
+Mengubah inputan agar menjadi dinamis menggunakan library `java.util.Scanner`
+
+`Screenshot:`
+
+![Tugas 6 SS](img/tugas6-ss.png)
+![Tugas 6 SS](img/tugas6-ss2.png)
+![Tugas 6 SS](img/tugas6-ss3.png)
+![Tugas 6 SS](img/tugas6-ss4.png)
+![Tugas 6 SS](img/tugas6-ss5.png)
+
+`Kode Program:`
+
+* [AnggotaKoperasi1841720019Sultan](../../src/3_Enkapsulasi/AnggotaKoperasi1841720019Sultan.java)
+* [TestKoperasi1841720019Sultan](../../src/3_Enkapsulasi/TestKoperasi1841720019Sultan.java)
 
 ## Kesimpulan
 
