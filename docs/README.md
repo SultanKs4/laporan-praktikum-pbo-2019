@@ -2,8 +2,8 @@
 
 * **[LAPORAN#1](1_Pengantar_Konsep_PBO/LAPORAN%231.md)** - *Pengantar Konsep PBO*
 * **[LAPORAN#2](2_Class_dan_Object/LAPORAN%232.md)** - *Class dan Object*
-* ~~**[LAPORAN#3](#index-laporan)** - *Enkapsulasi*~~
-* ~~**[LAPORAN#4](#index-laporan)** - *Relasi Class*~~
+* **[LAPORAN#3](3_Enkapsulasi/LAPORAN%233.md)** - *Enkapsulasi*
+* **[LAPORAN#4](4_Relasi_Class/LAPORAN%234.md)** - *Relasi Class*
 * ~~**[LAPORAN#5](#index-laporan)** - *Kuis 1*~~
 * ~~**[LAPORAN#6](#index-laporan)** - *Inheritance*~~
 * ~~**[LAPORAN#7](#index-laporan)** - *Overriding dan Overloading*~~
