@@ -27,9 +27,9 @@ Mengikuti langkah-langkah yang diberikan di jobsheet mulai dari poin b - s.
 
 `Kode Program:`
 
-* [Laptop1841720019Sultan.java](../../src/4_Relasi_Class/Laptop1841720019Sultan.java)
-* [Processor1841720019Sultan.java](../../src/4_Relasi_Class/Processor1841720019Sultan.java)
-* [MainPercobaan11841720019Sultan.java](../../src/4_Relasi_Class/MainPercobaan11841720019Sultan.java)
+* [Laptop1841720019Sultan.java](../../src/4_Relasi_Class/percobaan1/Laptop1841720019Sultan.java)
+* [Processor1841720019Sultan.java](../../src/4_Relasi_Class/percobaan1/Processor1841720019Sultan.java)
+* [MainPercobaan11841720019Sultan.java](../../src/4_Relasi_Class/percobaan1/MainPercobaan11841720019Sultan.java)
 
 ### Percobaan 2
 
@@ -44,10 +44,10 @@ Mengikuti langkah-langkah yang diberikan di jobsheet mulai dari poin a - m.
 
 `Kode Program:`
 
-* [Mobil1841720019Sultan.java](../../src/4_Relasi_Class/Mobil1841720019Sultan.java)
-* [Sopir1841720019Sultan.java](../../src/4_Relasi_Class/Sopir1841720019Sultan.java)
-* [Pelanggan1841720019Sultan.java](../../src/4_Relasi_Class/Pelanggan1841720019Sultan.java)
-* [MainPercobaan21841720019Sultan.java](../../src/4_Relasi_Class/MainPercobaan21841720019Sultan.java)
+* [Mobil1841720019Sultan.java](../../src/4_Relasi_Class/percobaan2/Mobil1841720019Sultan.java)
+* [Sopir1841720019Sultan.java](../../src/4_Relasi_Class/percobaan2/Sopir1841720019Sultan.java)
+* [Pelanggan1841720019Sultan.java](../../src/4_Relasi_Class/percobaan2/Pelanggan1841720019Sultan.java)
+* [MainPercobaan21841720019Sultan.java](../../src/4_Relasi_Class/percobaan2/MainPercobaan21841720019Sultan.java)
 
 ### Percobaan 3
 
@@ -62,9 +62,9 @@ Mengikuti langkah-langkah yang diberikan di jobsheet mulai dari poin a - n.
 
 `Kode Program:`
 
-* [Pegawai1841720019Sultan.java](../../src/4_Relasi_Class/Pegawai1841720019Sultan.java)
-* [KeretaApi1841720019Sultan.java](../../src/4_Relasi_Class/KeretaApi1841720019Sultan.java)
-* [MainPercobaan31841720019Sultan.java](../../src/4_Relasi_Class/MainPercobaan31841720019Sultan.java)
+* [Pegawai1841720019Sultan.java](../../src/4_Relasi_Class/percobaan3/Pegawai1841720019Sultan.java)
+* [KeretaApi1841720019Sultan.java](../../src/4_Relasi_Class/percobaan3/KeretaApi1841720019Sultan.java)
+* [MainPercobaan31841720019Sultan.java](../../src/4_Relasi_Class/percobaan3/MainPercobaan31841720019Sultan.java)
 
 ### Pecobaan 4
 
@@ -79,10 +79,10 @@ Mengikuti langkah-langkah yang diberikan di jobsheet mulai dari poin a - i.
 
 `Kode Program:`
 
-* [Gerbong1841720019Sultan.java](../../src/4_Relasi_Class/Gerbong1841720019Sultan.java)
-* [Kursi1841720019Sultan.java](../../src/4_Relasi_Class/Kursi1841720019Sultan.java)
-* [Penumpang1841720019Sultan.java](../../src/4_Relasi_Class/Penumpang1841720019Sultan.java)
-* [MainPercobaan41841720019Sultan.java](../../src/4_Relasi_Class/MainPercobaan41841720019Sultan.java)
+* [Gerbong1841720019Sultan.java](../../src/4_Relasi_Class/percobaan4/Gerbong1841720019Sultan.java)
+* [Kursi1841720019Sultan.java](../../src/4_Relasi_Class/percobaan4/Kursi1841720019Sultan.java)
+* [Penumpang1841720019Sultan.java](../../src/4_Relasi_Class/percobaan4/Penumpang1841720019Sultan.java)
+* [MainPercobaan41841720019Sultan.java](../../src/4_Relasi_Class/percobaan4/MainPercobaan41841720019Sultan.java)
 
 ## Pertanyaan
 
@@ -140,7 +140,7 @@ Mengikuti langkah-langkah yang diberikan di jobsheet mulai dari poin a - i.
     }
     ```
 
-    `proc.info()` akan merujuk pada file [Processor1841720019Sultan.java](../../src/4_Relasi_Class/Processor1841720019Sultan.java) pada method `infoSultan()` yang berisi:
+    `proc.info()` akan merujuk pada file [Processor1841720019Sultan.java](../../src/4_Relasi_Class/percobaan1/Processor1841720019Sultan.java) pada method `infoSultan()` yang berisi:
 
     ```Java
     public void infoSultan() {
@@ -258,9 +258,9 @@ Mengikuti langkah-langkah yang diberikan di jobsheet mulai dari poin a - i.
 
     `Kode Program:`
 
-    * [Pegawai1841720019Sultan.java](../../src/4_Relasi_Class/Pegawai1841720019Sultan.java)
-    * [KeretaApi1841720019Sultan.java](../../src/4_Relasi_Class/KeretaApi1841720019Sultan.java)
-    * [MainPertanyaan1841720019Sultan.java](../../src/4_Relasi_Class/MainPertanyaan1841720019Sultan.java)
+    * [Pegawai1841720019Sultan.java](../../src/4_Relasi_Class/percobaan3/Pegawai1841720019Sultan.java)
+    * [KeretaApi1841720019Sultan.java](../../src/4_Relasi_Class/percobaan3/KeretaApi1841720019Sultan.java)
+    * [MainPertanyaan1841720019Sultan.java](../../src/4_Relasi_Class/percobaan3/MainPertanyaan1841720019Sultan.java)
 
 3. Apa hasil output dari main program tersebut ? Mengapa hal tersebut dapat terjadi ?
 
@@ -292,9 +292,9 @@ Mengikuti langkah-langkah yang diberikan di jobsheet mulai dari poin a - i.
 
     `Kode Program:`
 
-    * [Pegawai1841720019Sultan.java](../../src/4_Relasi_Class/Pegawai1841720019Sultan.java)
-    * [KeretaApi1841720019Sultan.java](../../src/4_Relasi_Class/KeretaApi1841720019Sultan.java)
-    * [MainPertanyaan1841720019Sultan.java](../../src/4_Relasi_Class/MainPertanyaan1841720019Sultan.java)
+    * [Pegawai1841720019Sultan.java](../../src/4_Relasi_Class/percobaan3/Pegawai1841720019Sultan.java)
+    * [KeretaApi1841720019Sultan.java](../../src/4_Relasi_Class/percobaan3/KeretaApi1841720019Sultan.java)
+    * [MainPertanyaan1841720019Sultan.java](../../src/4_Relasi_Class/percobaan3/MainPertanyaan1841720019Sultan.java)
 
     Saya hanya menambahkan percabangan agar tidak sampai terjadi error `Null Pointer Exception` berikut adalah kode program yang saya tambahkan:
 
@@ -342,10 +342,10 @@ Mengikuti langkah-langkah yang diberikan di jobsheet mulai dari poin a - i.
 
     `Kode Program:`
 
-    * [Gerbong1841720019Sultan.java](../../src/4_Relasi_Class/Gerbong1841720019Sultan.java)
-    * [Kursi1841720019Sultan.java](../../src/4_Relasi_Class/Kursi1841720019Sultan.java)
-    * [Penumpang1841720019Sultan.java](../../src/4_Relasi_Class/Penumpang1841720019Sultan.java)
-    * [MainPercobaan41841720019Sultan.java](../../src/4_Relasi_Class/MainPercobaan41841720019Sultan.java)
+    * [Gerbong1841720019Sultan.java](../../src/4_Relasi_Class/percobaan4/Gerbong1841720019Sultan.java)
+    * [Kursi1841720019Sultan.java](../../src/4_Relasi_Class/percobaan4/Kursi1841720019Sultan.java)
+    * [Penumpang1841720019Sultan.java](../../src/4_Relasi_Class/percobaan4/Penumpang1841720019Sultan.java)
+    * [MainPercobaan41841720019Sultan.java](../../src/4_Relasi_Class/percobaan4/MainPercobaan41841720019Sultan.java)
 
 5. Modifikasi program sehingga tidak diperkenankan untuk menduduki kursi yang sudah ada penumpang lain !
 
@@ -356,10 +356,10 @@ Mengikuti langkah-langkah yang diberikan di jobsheet mulai dari poin a - i.
 
     `Kode Program:`
 
-    * [Gerbong1841720019Sultan.java](../../src/4_Relasi_Class/Gerbong1841720019Sultan.java)
-    * [Kursi1841720019Sultan.java](../../src/4_Relasi_Class/Kursi1841720019Sultan.java)
-    * [Penumpang1841720019Sultan.java](../../src/4_Relasi_Class/Penumpang1841720019Sultan.java)
-    * [MainPercobaan41841720019Sultan.java](../../src/4_Relasi_Class/MainPercobaan41841720019Sultan.java)
+    * [Gerbong1841720019Sultan.java](../../src/4_Relasi_Class/percobaan4/Gerbong1841720019Sultan.java)
+    * [Kursi1841720019Sultan.java](../../src/4_Relasi_Class/percobaan4/Kursi1841720019Sultan.java)
+    * [Penumpang1841720019Sultan.java](../../src/4_Relasi_Class/percobaan4/Penumpang1841720019Sultan.java)
+    * [MainPercobaan41841720019Sultan.java](../../src/4_Relasi_Class/percobaan4/MainPercobaan41841720019Sultan.java)
 
     Saya hanya menambahakn percabangan, kode program yang saya tambahkan seperti berikut:
 
@@ -374,11 +374,22 @@ Mengikuti langkah-langkah yang diberikan di jobsheet mulai dari poin a - i.
 
 Buatlah sebuah studi kasus, rancang dengan class diagram, kemudian implementasikan ke dalam program! Studi kasus harus mewakili relasi class dari percobaan‐percobaan yang telah dilakukan pada materi ini, setidaknya melibatkan minimal 4 class (class yang berisi main tidak dihitung).
 
+Studi kasus sederhana untuk pembelian kue.
+
 `Diagram Class:`
 
+![Tugas Diagram](img/tugas-diagram.png)
+
 `Screenshot:`
+![Tugas SS](img/tugas-ss.png)
 
 `Kode Program:`
+
+* [Kue1841720019Sultan.java](../../src/4_Relasi_Class/tugas/Kue1841720019Sultan.java)
+* [PegawaiKue1841720019Sultan.java](../../src/4_Relasi_Class/tugas/PegawaiKue1841720019Sultan.java)
+* [PelangganKue1841720019Sultan.java](../../src/4_Relasi_Class/tugas/PelangganKue1841720019Sultan.java)
+* [Pemesanan1841720019Sultan.java](../../src/4_Relasi_Class/tugas/Pemesanan1841720019Sultan.java)
+* [MainTugas1841720019Sultan.java](../../src/4_Relasi_Class/tugas/MainTugas1841720019Sultan.java)
 
 ## Kesimpulan
 
