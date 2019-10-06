@@ -360,9 +360,9 @@ Pada percobaan 6 membuat program sesuai jobsheet
 * [Karyawan1841720019Sultan](../../src/6_Inheritance/percobaan5/Karyawan1841720019Sultan.java)
 * [Manager1841720019Sultan](../../src/6_Inheritance/percobaan5/Manager1841720019Sultan.java)
 * [Staff1841720019Sultan](../../src/6_Inheritance/percobaan5/Staff1841720019Sultan.java)
-* [StaffTetap1841720019Sultan](../../src/6_Inheritance/percobaan6/Staff1841720019Sultan.java)
-* [StaffHarian1841720019Sultan](../../src/6_Inheritance/percobaan6/Staff1841720019Sultan.java)
-* [Inheritance11841720019Sultan](../../src/6_Inheritance/percobaan6/Inheritance11841720019Sultan.java)
+* [StaffTetap1841720019Sultan](../../src/6_Inheritance/percobaan6/StaffTetap1841720019Sultan.java)
+* [StaffHarian1841720019Sultan](../../src/6_Inheritance/percobaan6/StaffHarian1841720019Sultan.java)
+* [Inheritance21841720019Sultan](../../src/6_Inheritance/percobaan6/Inheritance21841720019Sultan.java)
 
 #### Pertanyaan Percobaan 6
 
@@ -432,7 +432,16 @@ Buatlah sebuah program dengan konsep pewarisan seperti pada class diagram beriku
 
 `Screenshot:`
 
+![SS Tugas](img/tugas-ss.png)
+
 `Kode Program:`
+
+* [Komputer1841720019Sultan](../../src/6_Inheritance/tugas/Komputer1841720019Sultan.java)
+* [Laptop1841720019Sultan](../../src/6_Inheritance/tugas/Laptop1841720019Sultan.java)
+* [Pc1841720019Sultan](../../src/6_Inheritance/tugas/Pc1841720019Sultan.java)
+* [Mac1841720019Sultan](../../src/6_Inheritance/tugas/Mac1841720019Sultan.java)
+* [Windows1841720019Sultan](../../src/6_Inheritance/tugas/Windows1841720019Sultan.java)
+* [Main1841720019Sultan](../../src/6_Inheritance/tugas/Main1841720019Sultan.java)
 
 ## Kesimpulan
 

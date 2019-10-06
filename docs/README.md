@@ -4,7 +4,7 @@
 * **[LAPORAN#2](2_Class_dan_Object/LAPORAN%232.md)** - *Class dan Object*
 * **[LAPORAN#3](3_Enkapsulasi/LAPORAN%233.md)** - *Enkapsulasi*
 * **[LAPORAN#4](4_Relasi_Class/LAPORAN%234.md)** - *Relasi Class*
-* **[LAPORAN#5](#index-laporan)** - *Kuis 1* ***GitLab***
+* ~~**[LAPORAN#5](#index-laporan)** - *Kuis 1*~~ ***GitLab***
 * **[LAPORAN#6](6_Inheritance/LAPORAN%236.md)** - *Inheritance*
 * ~~**[LAPORAN#7](#index-laporan)** - *Overriding dan Overloading*~~
 * ~~**[LAPORAN#8](#index-laporan)** - *UTS*~~
