@@ -6,7 +6,7 @@
 * **[LAPORAN#4](4_Relasi_Class/LAPORAN%234.md)** - *Relasi Class*
 * ~~**[LAPORAN#5](#index-laporan)** - *Kuis 1*~~ ***GitLab***
 * **[LAPORAN#6](6_Inheritance/LAPORAN%236.md)** - *Inheritance*
-* ~~**[LAPORAN#7](#index-laporan)** - *Overriding dan Overloading*~~
+* **[LAPORAN#7](7_Overriding_dan_Overloading/LAPORAN%237.md)** - *Overriding dan Overloading*
 * ~~**[LAPORAN#8](#index-laporan)** - *UTS*~~
 * ~~**[LAPORAN#9](#index-laporan)** - *Abstract Class dan Interface*~~
 * ~~**[LAPORAN#10](#index-laporan)** - *Polimorfisme*~~
