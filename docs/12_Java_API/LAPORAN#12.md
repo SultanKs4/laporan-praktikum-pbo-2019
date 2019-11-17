@@ -240,6 +240,7 @@ Collection terbagi menjadi 3 kelompok yaitu
     `Screenshot`
 
     ![percobaan 5 soal 1 ss](img/percobaan5-soal1-ss.png)
+    ![percobaan 5 soal 1 ss 2](img/percobaan5-soal1-ss2.png)
 
 2. Jelaskan maksud source code untuk melakukan insert data diatas?
 
@@ -282,6 +283,7 @@ Collection terbagi menjadi 3 kelompok yaitu
     `Screenshot`
 
     ![pertanyaan 5 soal 4 ss](img/pertanyaan5-soal4-ss.png)
+    ![pertanyaan 5 soal 4 ss 2](img/pertanyaan5-soal4-ss2.png)
 
 ## Kesimpulan
 

@@ -33,7 +33,7 @@ public class FormKoneksi1841720019Sultan extends javax.swing.JFrame {
             try {
                 String url = "jdbc:mariadb://localhost:3306/pbo";
                 String user = "root";
-                String password = "sultan81199";
+                String password = "";
                 DriverManager.registerDriver(new Driver());
                 sConnection = DriverManager.getConnection(url, user, password);
             } catch (SQLException e) {
@@ -83,7 +83,8 @@ public class FormKoneksi1841720019Sultan extends javax.swing.JFrame {
      */
     @SuppressWarnings("unchecked")
 
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    // <editor-fold defaultstate="collapsed" desc="Generated
+    // Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         mPanel = new javax.swing.JPanel();
@@ -106,17 +107,10 @@ public class FormKoneksi1841720019Sultan extends javax.swing.JFrame {
 
         mLblTelepon.setText("Telepon");
 
-        mTable.setModel(new javax.swing.table.DefaultTableModel(
-                new Object[][]{
+        mTable.setModel(new javax.swing.table.DefaultTableModel(new Object[][] {
 
-                },
-                new String[]{
-                        "ID", "Nama", "Alamat", "Telepon"
-                }
-        ) {
-            boolean[] canEdit = new boolean[]{
-                    false, false, false, false
-            };
+        }, new String[] { "ID", "Nama", "Alamat", "Telepon" }) {
+            boolean[] canEdit = new boolean[] { false, false, false, false };
 
             public boolean isCellEditable(int rowIndex, int columnIndex) {
                 return canEdit[columnIndex];
@@ -140,69 +134,59 @@ public class FormKoneksi1841720019Sultan extends javax.swing.JFrame {
 
         javax.swing.GroupLayout mPanelLayout = new javax.swing.GroupLayout(mPanel);
         mPanel.setLayout(mPanelLayout);
-        mPanelLayout.setHorizontalGroup(
-                mPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        mPanelLayout.setHorizontalGroup(mPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(mPanelLayout.createSequentialGroup().addContainerGap().addGroup(mPanelLayout
+                        .createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(mScrlPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 388, Short.MAX_VALUE)
                         .addGroup(mPanelLayout.createSequentialGroup()
-                                .addContainerGap()
                                 .addGroup(mPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(mScrlPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 388, Short.MAX_VALUE)
-                                        .addGroup(mPanelLayout.createSequentialGroup()
-                                                .addGroup(mPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addComponent(mLblTelepon)
-                                                        .addComponent(mLblAlamat)
-                                                        .addComponent(mLblNama))
-                                                .addGap(18, 18, 18)
-                                                .addGroup(mPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addComponent(mTxtFieldNama)
-                                                        .addComponent(mTxtFieldAlamat, javax.swing.GroupLayout.Alignment.TRAILING)
-                                                        .addComponent(mTxtFieldTelepon, javax.swing.GroupLayout.Alignment.TRAILING)))
-                                        .addGroup(mPanelLayout.createSequentialGroup()
-                                                .addComponent(mBtnAdd)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(mBtnRefresh)
-                                                .addGap(0, 0, Short.MAX_VALUE)))
-                                .addContainerGap())
-        );
-        mPanelLayout.setVerticalGroup(
-                mPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(mPanelLayout.createSequentialGroup()
-                                .addContainerGap()
-                                .addGroup(mPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(mLblNama)
-                                        .addComponent(mTxtFieldNama, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(mLblTelepon).addComponent(mLblAlamat).addComponent(mLblNama))
                                 .addGap(18, 18, 18)
-                                .addGroup(mPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(mLblAlamat)
-                                        .addComponent(mTxtFieldAlamat, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(18, 18, 18)
-                                .addGroup(mPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(mLblTelepon)
-                                        .addComponent(mTxtFieldTelepon, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(18, 18, 18)
-                                .addComponent(mScrlPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addGroup(mPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(mBtnAdd)
-                                        .addComponent(mBtnRefresh)))
-        );
+                                .addGroup(mPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(mTxtFieldNama)
+                                        .addComponent(mTxtFieldAlamat, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(mTxtFieldTelepon, javax.swing.GroupLayout.Alignment.TRAILING)))
+                        .addGroup(mPanelLayout.createSequentialGroup().addComponent(mBtnAdd)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(mBtnRefresh).addGap(0, 0, Short.MAX_VALUE)))
+                        .addContainerGap()));
+        mPanelLayout.setVerticalGroup(mPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(mPanelLayout.createSequentialGroup().addContainerGap()
+                        .addGroup(mPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(mLblNama)
+                                .addComponent(mTxtFieldNama, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                        javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(mPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(mLblAlamat)
+                                .addComponent(mTxtFieldAlamat, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                        javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(mPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(mLblTelepon)
+                                .addComponent(mTxtFieldTelepon, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                        javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addComponent(mScrlPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 137,
+                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addGroup(mPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(mBtnAdd).addComponent(mBtnRefresh))));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(mPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(layout.createSequentialGroup()
-                                .addComponent(mPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addContainerGap())
-        );
+        layout.setHorizontalGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING).addComponent(
+                mPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE));
+        layout.setVerticalGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createSequentialGroup()
+                        .addComponent(mPanel, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap()));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void mBtnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mBtnAddActionPerformed
+    private void mBtnAddActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_mBtnAddActionPerformed
         openConnectionSultan();
         String sqlQuery = "INSERT INTO anggota (nama, alamat, telp) VALUES ('" + this.mTxtFieldNama.getText() + "', '"
                 + this.mTxtFieldAlamat.getText() + "', '" + this.mTxtFieldTelepon.getText() + "')";
@@ -215,20 +199,23 @@ public class FormKoneksi1841720019Sultan extends javax.swing.JFrame {
             e.printStackTrace();
             JOptionPane.showMessageDialog(this, "Terjadi kesalahan" + e.getMessage());
         }
-    }//GEN-LAST:event_mBtnAddActionPerformed
+    }// GEN-LAST:event_mBtnAddActionPerformed
 
-    private void mBtnRefreshActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mBtnRefreshActionPerformed
+    private void mBtnRefreshActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_mBtnRefreshActionPerformed
         getDataTable();
-    }//GEN-LAST:event_mBtnRefreshActionPerformed
+    }// GEN-LAST:event_mBtnRefreshActionPerformed
 
     /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
+        // <editor-fold defaultstate="collapsed" desc=" Look and feel setting code
+        // (optional) ">
+        /*
+         * If Nimbus (introduced in Java SE 6) is not available, stay with the default
+         * look and feel. For details see
+         * http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
@@ -238,15 +225,19 @@ public class FormKoneksi1841720019Sultan extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(FormKoneksi1841720019Sultan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FormKoneksi1841720019Sultan.class.getName())
+                    .log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(FormKoneksi1841720019Sultan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FormKoneksi1841720019Sultan.class.getName())
+                    .log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(FormKoneksi1841720019Sultan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FormKoneksi1841720019Sultan.class.getName())
+                    .log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(FormKoneksi1841720019Sultan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FormKoneksi1841720019Sultan.class.getName())
+                    .log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
+        // </editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
